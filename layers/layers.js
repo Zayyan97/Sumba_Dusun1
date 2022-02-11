@@ -64,19 +64,6 @@ var lyr_Dusun1_MapPlan_Orthomosaic_expor_4 = new ol.layer.Image({
                                 imageExtent: [13306093.390141, -1072894.018554, 13306212.850141, -1072817.578554]
                             })
                         });
-var lyr_Dusun1_MapPlan2_Orthomosaic_expor_5 = new ol.layer.Image({
-                            opacity: 1,
-                            title: "Dusun1_MapPlan2_Orthomosaic_expor",
-                            
-                            
-                            source: new ol.source.ImageStatic({
-                               url: "./layers/Dusun1_MapPlan2_Orthomosaic_expor_5.png",
-    attributions: ' ',
-                                projection: 'EPSG:3857',
-                                alwaysInRange: true,
-                                imageExtent: [13306141.163284, -1072542.903555, 13306320.323284, -1072399.563555]
-                            })
-                        });
 var lyr_Dusun1_PetaKampungWatumanguDusun_6 = new ol.layer.Image({
                             opacity: 1,
                             title: "Dusun1_PetaKampungWatumanguDusun",
@@ -103,19 +90,7 @@ var lyr_KampungPrainguBua_Orthomo_7 = new ol.layer.Image({
                                 imageExtent: [13305797.196656, -1072922.691240, 13305887.976656, -1072812.801240]
                             })
                         });
-var lyr_Dusun1_KampungLaihagagar_Orthomo_8 = new ol.layer.Image({
-                            opacity: 1,
-                            title: "Dusun1_KampungLaihagagar_Orthomo",
-                            
-                            
-                            source: new ol.source.ImageStatic({
-                               url: "./layers/Dusun1_KampungLaihagagar_Orthomo_8.png",
-    attributions: ' ',
-                                projection: 'EPSG:3857',
-                                alwaysInRange: true,
-                                imageExtent: [13306310.757940, -1072657.563126, 13306423.047940, -1072507.053126]
-                            })
-                        });
+
 var lyr_Dusun1_KampungLaihagagar2_Orthom_9 = new ol.layer.Image({
                             opacity: 1,
                             title: "Dusun1_KampungLaihagagar2_Orthom",
@@ -144,10 +119,10 @@ var lyr_Dusun1_10 = new ol.layer.Vector({
                 title: '<img src="styles/legend/Dusun1_10.png" /> Dusun1'
             });
 var group_AerialImagery = new ol.layer.Group({
-                                layers: [lyr_GoogleSatellite_0,lyr_Dusun1_KampungLaramutur_Orthomos_1,lyr_Dusun1_KampungMudi_Orthomos_1_2,lyr_Dusun1_KampungPangadu_Ortho_2_3,lyr_Dusun1_MapPlan_Orthomosaic_expor_4,lyr_Dusun1_MapPlan2_Orthomosaic_expor_5,lyr_Dusun1_PetaKampungWatumanguDusun_6,lyr_KampungPrainguBua_Orthomo_7,lyr_Dusun1_KampungLaihagagar_Orthomo_8,lyr_Dusun1_KampungLaihagagar2_Orthom_9,],
+                                layers: [lyr_GoogleSatellite_0,lyr_Dusun1_KampungLaramutur_Orthomos_1,lyr_Dusun1_KampungMudi_Orthomos_1_2,lyr_Dusun1_KampungPangadu_Ortho_2_3,lyr_Dusun1_MapPlan_Orthomosaic_expor_4,lyr_Dusun1_PetaKampungWatumanguDusun_6,lyr_KampungPrainguBua_Orthomo_7,lyr_Dusun1_KampungLaihagagar2_Orthom_9,],
                                 title: "Aerial Imagery"});
 
-lyr_GoogleSatellite_0.setVisible(true);lyr_Dusun1_KampungLaramutur_Orthomos_1.setVisible(true);lyr_Dusun1_KampungMudi_Orthomos_1_2.setVisible(true);lyr_Dusun1_KampungPangadu_Ortho_2_3.setVisible(true);lyr_Dusun1_MapPlan_Orthomosaic_expor_4.setVisible(true);lyr_Dusun1_MapPlan2_Orthomosaic_expor_5.setVisible(true);lyr_Dusun1_PetaKampungWatumanguDusun_6.setVisible(true);lyr_KampungPrainguBua_Orthomo_7.setVisible(true);lyr_Dusun1_KampungLaihagagar_Orthomo_8.setVisible(true);lyr_Dusun1_KampungLaihagagar2_Orthom_9.setVisible(true);lyr_Dusun1_10.setVisible(true);
+lyr_GoogleSatellite_0.setVisible(true);lyr_Dusun1_KampungLaramutur_Orthomos_1.setVisible(true);lyr_Dusun1_KampungMudi_Orthomos_1_2.setVisible(true);lyr_Dusun1_KampungPangadu_Ortho_2_3.setVisible(true);lyr_Dusun1_MapPlan_Orthomosaic_expor_4.setVisible(true);lyr_Dusun1_PetaKampungWatumanguDusun_6.setVisible(true);lyr_KampungPrainguBua_Orthomo_7.setVisible(true);lyr_Dusun1_KampungLaihagagar2_Orthom_9.setVisible(true);lyr_Dusun1_10.setVisible(true);
 var layersList = [group_AerialImagery,lyr_Dusun1_10];
 lyr_Dusun1_10.set('fieldAliases', {'Longitude_': 'Longitude_', 'Latitude__': 'Latitude__', 'Building_C': 'Building_C', 'ID_on_Base': 'ID_on_Base', 'Head_of_HH': 'Head_of_HH', 'M_F': 'M_F', 'Coordinate': 'Coordinate', 'Field8': 'Field8', 'Tiang_Terd': 'Tiang_Terd', 'Jarak_deng': 'Jarak_deng', 'Sinyal': 'Sinyal', 'Jenis_Ruma': 'Jenis_Ruma', 'Wealth_Gro': 'Wealth_Gro', 'F_Family': 'F_Family', 'F_Total_HH': 'F_Total_HH', 'F_Male_HH_': 'F_Male_HH_', 'F_Female_H': 'F_Female_H', 'F_Children': 'F_Children', 'F_Childr_1': 'F_Childr_1', 'F_Childr_2': 'F_Childr_2', 'F_Childr_3': 'F_Childr_3', 'F_Childr_4': 'F_Childr_4', 'F_Childr_5': 'F_Childr_5', 'F_Childr_6': 'F_Childr_6', 'F_Childr_7': 'F_Childr_7', 'F_Childr_8': 'F_Childr_8', 'F_Childr_9': 'F_Childr_9', 'F_Child_10': 'F_Child_10', 'F_Child_11': 'F_Child_11', 'F_Adult__3': 'F_Adult__3', 'F_Adult__4': 'F_Adult__4', 'F_Adult__5': 'F_Adult__5', 'F_Adult__6': 'F_Adult__6', 'F_Adult__7': 'F_Adult__7', 'F_Adult__8': 'F_Adult__8', 'F_Adult__9': 'F_Adult__9', 'F_Adult_10': 'F_Adult_10', 'F_Adult_11': 'F_Adult_11', 'F_Adult_12': 'F_Adult_12', 'F_Adult_13': 'F_Adult_13', 'F_Adult_14': 'F_Adult_14', 'F_Elderly_': 'F_Elderly_', 'F_Elderly1': 'F_Elderly1', 'F_Elderl_1': 'F_Elderl_1', 'F_Elderl_2': 'F_Elderl_2', 'F_Elderl_3': 'F_Elderl_3', 'F_Elderl_4': 'F_Elderl_4', 'F_Elderl_5': 'F_Elderl_5', 'F_Elderl_6': 'F_Elderl_6', 'Havefamily': 'Havefamily', 'Remarks': 'Remarks', 'Receiving_': 'Receiving_', 'Remarks_1': 'Remarks_1', 'Own_Busine': 'Own_Busine', 'Remarks_12': 'Remarks_12', 'a__Lightin': 'a__Lightin', 'Total_load': 'Total_load', 'b__HP': 'b__HP', 'Total_lo_1': 'Total_lo_1', 'c1__Speake': 'c1__Speake', 'Total_lo_2': 'Total_lo_2', 'c2__Speake': 'c2__Speake', 'Total_lo_3': 'Total_lo_3', 'd__TV_': 'd__TV_', 'Total_lo_4': 'Total_lo_4', 'e__Fan': 'e__Fan', 'Total_lo_5': 'Total_lo_5', 'f__Clothes': 'f__Clothes', 'Total_lo_6': 'Total_lo_6', 'g__Magic_C': 'g__Magic_C', 'Total_lo_7': 'Total_lo_7', 'h__Fridge': 'h__Fridge', 'Total_lo_8': 'Total_lo_8', 'Wood_Plane': 'Wood_Plane', 'Total_lo_9': 'Total_lo_9', 'Handheld_G': 'Handheld_G', 'Total_l_10': 'Total_l_10', 'Total_HH_l': 'Total_HH_l', });
 lyr_Dusun1_10.set('fieldImages', {'Longitude_': '', 'Latitude__': '', 'Building_C': '', 'ID_on_Base': '', 'Head_of_HH': '', 'M_F': '', 'Coordinate': '', 'Field8': '', 'Tiang_Terd': '', 'Jarak_deng': '', 'Sinyal': '', 'Jenis_Ruma': '', 'Wealth_Gro': '', 'F_Family': '', 'F_Total_HH': '', 'F_Male_HH_': '', 'F_Female_H': '', 'F_Children': '', 'F_Childr_1': '', 'F_Childr_2': '', 'F_Childr_3': '', 'F_Childr_4': '', 'F_Childr_5': '', 'F_Childr_6': '', 'F_Childr_7': '', 'F_Childr_8': '', 'F_Childr_9': '', 'F_Child_10': '', 'F_Child_11': '', 'F_Adult__3': '', 'F_Adult__4': '', 'F_Adult__5': '', 'F_Adult__6': '', 'F_Adult__7': '', 'F_Adult__8': '', 'F_Adult__9': '', 'F_Adult_10': '', 'F_Adult_11': '', 'F_Adult_12': '', 'F_Adult_13': '', 'F_Adult_14': '', 'F_Elderly_': '', 'F_Elderly1': '', 'F_Elderl_1': '', 'F_Elderl_2': '', 'F_Elderl_3': '', 'F_Elderl_4': '', 'F_Elderl_5': '', 'F_Elderl_6': '', 'Havefamily': '', 'Remarks': '', 'Receiving_': '', 'Remarks_1': '', 'Own_Busine': '', 'Remarks_12': '', 'a__Lightin': '', 'Total_load': '', 'b__HP': '', 'Total_lo_1': '', 'c1__Speake': '', 'Total_lo_2': '', 'c2__Speake': '', 'Total_lo_3': '', 'd__TV_': '', 'Total_lo_4': '', 'e__Fan': '', 'Total_lo_5': '', 'f__Clothes': '', 'Total_lo_6': '', 'g__Magic_C': '', 'Total_lo_7': '', 'h__Fridge': '', 'Total_lo_8': '', 'Wood_Plane': '', 'Total_lo_9': '', 'Handheld_G': '', 'Total_l_10': '', 'Total_HH_l': '', });
